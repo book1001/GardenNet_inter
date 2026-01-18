@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Interactive Design</title>
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
     <!-- css -->
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index-detail.css">
+    <link rel="stylesheet" href="index_detail.css">
     <link rel="stylesheet" href="index_media.css">
 
     <!-- script: index_ie.js -->
@@ -39,62 +39,47 @@
       <button class="menu-index font-menu" onclick="location.href='index.html'" type="button">
         Interactive Design
       </button>
-      <button id="row3" class="menu-btn font-menu" onclick="menuSyllabus()" type="button">
+      <button id="row4" class="menu-btn font-menu" onclick="menuSyllabus()" type="button">
         Syllabus
       </button>
-      <button id="row2" class="menu-btn font-menu" onclick="menuProjects()" type="button">
+      <button id="row3" class="menu-btn font-menu" type="button">
+        ⌘
+      </button>
+      <button id="row1" class="menu-btn font-menu" onclick="menuProjects()" type="button">
         ➊➋
       </button>
-      <button id="row1" class="menu-btn font-menu" type="button">
+      <button id="row2" class="menu-btn font-menu" type="button">
         ❸
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1fjNiHgE6kuibYdtYc1aH2W8VfaUrEp29kx1RqJstKN0/edit?usp=sharing', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1uO0cSqWumfzX0xnk32F8KPwhYwlUNJMETi3m843V14w/edit?usp=sharing', '_blank');" type="button">
         Sign-up
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1YAink7vcw_YtFro7cKhCvE3126QMCAcnB5KQ82ZfU54/edit?usp=sharing', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://calendly.com/lee-halim/30min', '_blank');" type="button">
         Office Hours
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://bu-sp25-interactive.slack.com', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://bu-interactivedesign.slack.com', '_blank');" type="button">
         Slack
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://drive.google.com/drive/folders/1GhIhCnj_7vp-TTTvrvnzz3tyi7ROnKQY?usp=drive_link', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://drive.google.com/drive/folders/1pJLxaxUNxbvywDHGYk8qQnAiuAg_SzZF?usp=drive_link', '_blank');" type="button">
         G-Drive
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/spreadsheets/d/1f_fuUn9932LmXMjMzoALJlQJa7zdwT17ja_1Z6deqa0/edit?usp=sharing', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://www.are.na/fall-2025-bu-interactive-design/collaborative-codebox', '_blank');" type="button">
+        Are.na
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/spreadsheets/d/1ie_V2OpEVamJjUSMl9ZzlGpnBHShv2NllxiKWa7iQUk/edit?usp=sharing', '_blank');" type="button">
         Attendance
       </button>
     </div>
 
 
-    <!-- Body: P1 ================================================================== -->
-    <div class="row2">
+    <!-- Body: P1 P2 ================================================================== -->
+    <div id="main" class="row1">
       <div class="scrollContents">
 
         <div class="col2-text" style="text-indent: 0px;">
           <!-- --------------------------------------------------------------- -->
           <div id="p1_magicSpells_1">
-            <div class="h-top"></div>
-            <a href="https://www.are.na/fall-2025-bu-interactive-design/inter-class-note" target="_blank">
-              <h1>➊ Digital Narrative</h1>
-            </a>
-
-            <h4>
-              What new possibilities arise when print is transformed into digital? This project explores how web interactivity can reshape traditional reading experiences and foster deeper engagement. You will adapt a piece of writing into a poetic, single-page website. The text choice is entirely up to you—it can be something you’ve written before or a new piece you’d like to explore. By identifying key elements of your writing, you will use web programming languages to enhance the narrative, making it more engaging for the reader.
-              <br><br><br>
-            </h4>
-
-            <a href="https://www.are.na/fall-2025-bu-interactive-design/inter-class-note" target="_blank">
-              <h1>➋ Multiple Announces</h1>
-            </a>
-
-            <h4>
-              This project utilizes body detection to promote your first project during the Multiple Formats art book fair. What kind of interactivity did you incorporate into your Digital Narrative project, and how can you showcase it using body detection? The final deliverable will include screen-recorded demo videos designed for promotional use on Instagram. Experimenting with diverse and creative ideas is highly encouraged.
-              <br><br><br>
-            </h4>
-            
-            <iframe class="col-arena-L" style="min-height: calc(1200px + 40px);" src="schedule/schedule_p1.html"></iframe>
-            <!-- <h4 id="assignment" style="padding-bottom: 15px;"></h4> -->
-            <!-- <iframe class="col-arena-L" style="height: 100svh;" src="https://g-calendar-24f-p.glitch.me"></iframe> -->
+            <iframe class="col-arena-L" src="schedule_w/weekly_p1.html"></iframe>
           </div>
           <!-- --------------------------------------------------------------- -->
           <div id="p1_magicSpells_2">
@@ -104,14 +89,10 @@
         </div>
 
         <div class="p-title">
-          <!-- <a href="https://www.are.na/spring-2024-bu-sophomore-graphic-design/form-making-workshops-typeface" target="_blank">
-            <h1 style="color: white;">FORM MAKING WORKSHOP & TYPEFACE</h1>
-          </a> -->
-
           <div class="p-title-subM">
             <div style="text-align: center;">
               <button id="btn_p1_1" class="p-title-subM-btn" onclick="p1_magicSpells_1()" type="button">
-                Schedule
+                Note
               </button>
               |
               <button id="btn_p1_2" class="p-title-subM-btn" onclick="p1_magicSpells_2()" type="button">
@@ -124,55 +105,30 @@
       </div>
     </div>
 
-    <!-- Body: P2 ================================================================== -->
-    <div id="main" class="row1">
+    <!-- Body: P3 ================================================================== -->
+    <div class="row2">
       <div class="scrollContents">
-
-        <!-- <div class="h-top"></div>
-        <h1>Infinite Figures</h1> -->
         
         <div class="col2-text" style="text-indent: 0px;">
           <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_1">
-            <div class="h-top"></div>
-            <a href="https://www.are.na/fall-2025-bu-interactive-design/inter-class-note" target="_blank">
-              <h1>❸ Invisible Guidance</h1>
-            </a>
-
-            <h4>
-              A good website allows users to intuitively understand how to interact with it without the need for complex explanations. The theme of the final project is “Invisible Guidance.” How you interpret this concept depends on your creative decision. Your project could take the form of an experimental website or one designed for practical purposes. However, it must enable users to easily understand and interact with it as you initially intended. The deliverable can be created with code, a site-building platform (CMS), or a combination of both, based on your preference. Lectures on fundamental UI/UX principles will be included to support your process.
-              <br><br><br>
-            </h4>
-            <!-- <h4>
-              How can motion be used to effectively communicate information? In this project, you will create an animated infographic that visually conveys content or data in a clear and engaging way. You are free to choose any topic that interests you, whether it’s a subject you’re passionate about or one related to your thesis. However, selecting a topic that can be visually represented with clarity and creativity is highly recommended.
-
-              Key aspects of this project include:
-              ⌘ Synchronization with Music: Aligning motion with audio to enhance impact.
-              ⌘ Clear Communication: Ensuring the information is easily understood by the audience.
-              ⌘ Seamless Transitions: Creating smooth transitions between scenes or frames for a cohesive visual flow.
-
-              The recommended video length is approximately 1 minute, allowing for a concise yet comprehensive presentation. As part of the project, you will analyze existing videos to explore various transition techniques and apply them to your own work.
-              <br><br><br>
-            </h4> -->
-
-            <iframe class="col-arena-L" style="min-height: calc(1200px + 40px);" src="schedule/schedule_p2.html"></iframe>
+          <div id="p3_ghosts_1">
+            <iframe class="col-arena-L" src="schedule_w/weekly_p3.html"></iframe>
           </div>
           <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_2">
+          <div id="p3_ghosts_2">
             <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
           </div>
-          <!-- --------------------------------------------------------------- -->
         </div>
-        
-        <div class="p-title">
 
+        <div class="p-title">
+  
           <div class="p-title-subM">
             <div style="text-align: center;">
-              <button id="btn_p2_1" class="p-title-subM-btn" onclick="p2_infiniteFigures_1()" type="button">
-                Schedule
+              <button id="btn_p3_1" class="p-title-subM-btn" onclick="p3_ghosts_1()" type="button">
+                Note
               </button>
               |
-              <button id="btn_p2_2" class="p-title-subM-btn" onclick="p2_infiniteFigures_2()" type="button">
+              <button id="btn_p3_2" class="p-title-subM-btn" onclick="p3_ghosts_2()" type="button">
                 Resources
               </button>
             </div>
@@ -182,8 +138,44 @@
       </div>
     </div>
 
-    <!-- Body: Syllabus ================================================================== -->
+    <!-- Body: P4 ================================================================== -->
     <div class="row3">
+      <div class="scrollContents">
+        
+        <div class="col2-text" style="text-indent: 0px;">
+          <!-- --------------------------------------------------------------- -->
+          <div id="p4_terra_1">
+            <iframe class="col-arena-L" src="schedule_w/weekly.html"></iframe>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div id="p4_terra_2">
+            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
+            <!-- <iframe class="col-arena-R" src="arena/class_resource.html"></iframe> -->
+          </div>
+          <!-- --------------------------------------------------------------- -->
+        </div>
+        
+        <div class="p-title">
+          
+          <div class="p-title-subM">
+            <div style="text-align: center;">
+              <button id="btn_p4_1" class="p-title-subM-btn" onclick="p4_terra_1()" type="button">
+                Note
+              </button>
+              |
+              <button id="btn_p4_2" class="p-title-subM-btn" onclick="p4_terra_2()" type="button">
+                Resources
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Body: Syllabus ================================================================== -->
+    <div class="row4">
       <div class="scrollContents">
         <div class="col2-full" style="text-indent: 0px;">
           <div id="syllabus_1">
@@ -193,10 +185,7 @@
               <h3 style="text-indent: 0px;">
                 <div>
                   <h3>
-                    BU Spring 2025
-                  </h3>
-                  <h3>
-                    Interactive Design
+                    BU Fall 2026 | Interactive Design
                   </h3>
                 </div>
               </h3>
@@ -204,18 +193,6 @@
                 <div>
                   <h3>
                     CFA AR 589 | Credits 2
-                  </h3>
-                  <h3 style="display: grid; grid-template-columns: 106px auto;">
-                    <ul>
-                      <li>
-                        Location |
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        Room 409
-                      </li>
-                    </ul>
                   </h3>
                 </div>
               </h3>
@@ -250,7 +227,7 @@
                     </ul>
                     <ul>
                       <li>
-                        Fri 5:15 — 7:45 pm<br>
+                        Fri 5:30 — 7:30 pm<br>
                         by appointment
                       </li>
                     </ul>
@@ -260,38 +237,35 @@
 
               <h3 style="text-indent: 0px;">
                 <div>
-                  <h3 style="display: grid; grid-template-columns: 45px auto;">
+                  <h3 style="display: grid; grid-template-columns: 110px auto;">
                     <ul>
                       <li>
-                        B1 |
+                        Time
                       </li>
                       <li>
-                        A1 |
+                        Location
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        Fri 8:00 — 10:45 AM
+                        Fri 2:30 — 5:15 PM
                       </li>
                       <li>
-                        Fri 2:30 — ⠀5:15 PM
+                        Room 410, 808 Building
                       </li>
                       <br>
                     </ul>
                   </h3>
+
                   <h3 style="display: grid; grid-template-columns: 45px auto;">
                     <ul>
                       <li>
                         TA
                       </li>
                     </ul>
-                    <ul>
-                      <li>
-                        Wenbin Huang (He/ Him)
-                         <ul class="bulletS">
-                           <li class="link"><a href = "mailto: wenbin@bu.edu">wenbin@bu.edu</a></li>
-                         </ul>
-                      </li>
+                    <ul class="bulletS">
+                      <li class="link"><a href = "https://nienko.com/" target="_blank">Kelly Thomas (She/ They)</a></li>
+                      <li class="link"><a href = "mailto: kjt32@bu.edu">kjt32@bu.edu</a></li>
                     </ul>
                   </h3>
                 </div>
@@ -306,7 +280,7 @@
               <div>
                 <h3>Description</h3>
                 <h4>
-                  This course opens the door to different ways of thinking and making forms, and adding interactivity through computer programming and looks at how it can be used for creative projects by creating a new context or extending what we already know. Class time will be split between lectures, work sessions, discussions, presentations and critiques.
+                  This course opens the door to different ways of thinking and making forms, and adding interactivity through computer programming, and looks at how it can be used for creative projects by creating a new context or extending what we already know. Class time will be split between lectures, work sessions, discussions, presentations, and critiques.
                 </h4><br><br>
 
                 <h3>Learning Outcomes</h3>
@@ -319,7 +293,7 @@
 
                 <h3>Courseware</h3>
                 <h4>
-                  Please check the class website regularly, as it is the main hub for all course materials. It features the latest schedule, lecture slides, workshop resources, and links to sign-up sheets, Slack, and Google Drive for easy access. Weekly homework announcements and reference sharing will be handled via Slack.
+                  Please check our class website and Slack channel regularly. The class website will be used for sign-ups and uploading course materials, while Slack will be used for group communication. We will use Are.na for sharing insightful resources.
                 </h4><br><br>
 
                 <h3>Project Submission</h3>
@@ -366,21 +340,27 @@
               <!-- --------------------------------------------------------------- -->
 
               <div>
-                <h3>#1 Digital Narrative</h3>
+                <h3>🄋 Collaborative Codebox</h3>
                 <h4>
-                  What new possibilities arise when print is transformed into digital? This project explores how web interactivity can reshape traditional reading experiences and foster deeper engagement. You will adapt a piece of writing into a poetic, single-page website. The text choice is entirely up to you—it can be something you’ve written before or a new piece you’d like to explore. By identifying key elements of your writing, you will use web programming languages to enhance the narrative, making it more engaging for the reader.
+                  Knowing what is feasible in programming greatly expands the range of ideas you can explore in your projects. Interactive Design is a collaborative space where every class member supports one another. To grow our coding knowledge, we will operate a Collaborative Codebox Are.na channel. Each member will sign up for a date and share five code-related resources they find interesting or new. These resources will be posted on the Are.na channel so that everyone can use them as assets for future projects. The five resources can be anything you think will be helpful to yourself and the class. For example, they could be an online CSS generator, a new JavaScript library, a sample code snippet you discovered on CodePen, or even an AI code generation tool.
                 </h4><br><br>
                 <hr><br><br>
 
-                <h3>#2 Multiple Announces</h3>
+                <h3>➊ Interactive Poster</h3>
                 <h4>
-                  This project utilizes body detection to promote your first project during the Multiple Formats art book fair. What kind of interactivity did you incorporate into your Digital Narrative project, and how can you showcase it using body detection? The final deliverable will include screen-recorded demo videos designed for promotional use on Instagram. Experimenting with diverse and creative ideas is highly encouraged.
+                  Interactivity is a key strength of digital media. This project explores how web-based interaction can reimagine traditional print media and foster deeper engagement. Using HTML, CSS, and JavaScript, you will learn techniques ranging from basic CSS media queries to more dynamic interactions such as sound detection and machine learning, and apply them to design an online interactive poster. The interactions you learn in workshops should meaningfully enhance your poster’s idea and concept.
                 </h4><br><br>
                 <hr><br><br>
 
-                <h3>#3 Invisible Guidance</h3>
+                <h3>➋ Digital Narrative</h3>
                 <h4>
-                  A good website allows users to intuitively understand how to interact with it without the need for complex explanations. The theme of the final project is “Invisible Guidance.” How you interpret this concept depends on your creative decision. Your project could take the form of an experimental website or one designed for practical purposes. However, it must enable users to easily understand and interact with it as you initially intended. The deliverable can be created with code, a site-building platform (CMS), or a combination of both, based on your preference. Lectures on fundamental UI/UX principles will be included to support your process.
+                  Based on the workshops from Project 1, you will create a single-page web zine (or multiple pages if you are comfortable with programming). The choice of text and its length are entirely up to you—it can be something you’ve written before or a new piece you would like to explore. It is important to apply interactions that suit your text in order to strengthen the narrative and create a more engaging experience for the reader. You are encouraged to use interactions that were not included in Project 1, or to combine multiple interactions together.
+                </h4><br><br>
+                <hr><br><br>
+
+                <h3>❸ Moments Online</h3>
+                <h4>
+                  The internet is not a fixed medium. In Project 3, you will create a website that functions or appears only at specific moments. As the final project of Interactive Design, your work can take any form—for example, another interactive zine, a web-based performance, a music video, or a poetic website with other creative ideas—offering more freedom than Projects 1 and 2. While workshops on time-based interactions and additional body detection will be provided, you are encouraged to freely apply any other interactions to create a website that responds to the “Moments Online” prompt.
                 </h4><br>
 
               </div>
@@ -388,7 +368,7 @@
           </div>
             
           <div id="syllabus_2">
-            <iframe class="col-arena-R" src="schedule/schedule_s.html"></iframe>
+            <iframe class="col-arena-R" src="schedule_m/monthly.html"></iframe>
             <!-- <iframe id="noteText" class="col-arena-R" src="https://g-calendar-24f.glitch.me"></iframe> -->
           </div>
         </div>
@@ -410,39 +390,14 @@
       </div>
     </div>
 
-    <!-- Body: Note ================================================================== -->
-    <div class="row5">
-      <div class="scrollContents">
-
-        <!-- <div class="h-top"></div>
-        <h1>Infinite Figures</h1> -->
-        
-        <div class="col2-text" style="text-indent: 0px;">
-          <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_1">
-            <iframe class="col-arena-L" style="height: 100svh;" src="https://bu-n-soft.glitch.me"></iframe>
-          </div>
-          <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_2">
-            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
-          </div>
-          <!-- --------------------------------------------------------------- -->
-        </div>
-
-      </div>
-      <!-- <div class="scrollContents">
-        <iframe class="iframe-full" src="https://docs.google.com/document/d/1m5-sjV1BMbj_gvvh0BEALeMDg_dL4180xikqarKQwSw/edit?usp=sharing"></iframe>
-      </div> -->
-    </div>
-
 
     <!-- Body: Are.na ================================================================== -->
     <iframe id="notePen" class="toolsWorld" src="/note/index.html"></iframe>
 
 
-    <!-- script  -->
+    <!-- script ================================================================== -->
     <script type="text/javascript" src="index.js"></script>
-    
+
 
   </body>
 </html>

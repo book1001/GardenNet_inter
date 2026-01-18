@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridFourWeek',
     timeZone: 'America/New_York',
-    initialDate: '2025-01-24',
+    initialDate: '2026-01-23',
     firstDay: 1,
     views: {
       dayGridFourWeek: {
         type: 'dayGrid',
-        duration: { weeks: 14 },
+        duration: { weeks: 15 },
       },
     },
     headerToolbar: {
